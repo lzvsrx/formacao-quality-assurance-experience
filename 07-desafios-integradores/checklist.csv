@@ -1,0 +1,7 @@
+ID,Desafio,Entregavel,Status
+D01,Testes manuais,Plano e casos,Exemplo fornecido
+D02,TDD Java,Classe e testes,Implementado
+D03,Testes API,Testes existentes,Implementado parcialmente
+D04,Testes Front-end,Testes existentes,Implementado parcialmente
+D05,Espresso Android,Teste instrumentado existente,Implementado parcialmente
+D06,CI,Workflow existente,Implementado parcialmente

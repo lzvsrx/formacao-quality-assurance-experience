@@ -1,0 +1,6 @@
+Requisito,Caso,Prioridade,Tipo,Status
+RF01,CT01,Alta,Funcional,Nao executado
+RF02,CT02,Alta,Seguranca,Nao executado
+RF03,CT03,Alta,Funcional,Nao executado
+RF06,CT04,Alta,Negativo,Nao executado
+RF05,CT05,Alta,Integracao,Nao executado

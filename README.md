@@ -21,3 +21,6 @@ Projetos originais de estudo, organizados pelos seis módulos divulgados publica
 - iOS: exemplo XCTest para inserir em projeto Xcode iOS.
 
 Dependências são restauradas pelos respectivos gerenciadores; não há binários ou certificados incluídos.
+
+## Atualização 2026-11-08
+Inclui novos desafios originais em `07-desafios-integradores`, CTFL, técnicas de teste, matriz de rastreabilidade, teste parametrizado Java, carrinho TypeScript e roteiros de testes mobile. Consulte `COBERTURA-E-LIMITACOES.md` antes de declarar conclusão da formação.

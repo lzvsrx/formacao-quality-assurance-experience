@@ -1,9 +1,5 @@
-# Cobertura e limitações
-
-A fonte pública da DIO informa 6 módulos e 27 atividades: 8 fundamentos, 5 Java, 3 Node/TypeScript, 2 .NET, 2 front-end, 7 mobile. Não fornece lista individual integral de aulas e desafios da trilha histórica `formacao-quality-assurance-experience`.
-
-Este pacote inclui exercícios e projetos autorais alinhados aos seis eixos, **não 27 reproduções verificadas**. Para uma correspondência exata, é necessário o índice autenticado completo ou capturas/lista das aulas fornecidas pelo aluno.
-
-Versões de dependências foram escolhidas como bases conhecidas, mas não houve instalação nem execução dos testes neste ambiente. Confira atualizações e compatibilidade no seu sistema antes de produção.
-
-Amostras são educacionais e não incluem testes de carga, scanner de vulnerabilidades nem configurações de produção.
+# Cobertura e limitações — atualização 2026-11-08
+Fonte pública DIO: https://www.dio.me/curso-quality-assurance
+Fonte roadmap: https://digitalinnovationone.github.io/roadmaps/careers/qa/
+A página pública apresenta seis módulos e 27 atividades (8+5+3+2+2+7), mas **não revela a relação detalhada e integral das 27 aulas/desafios**. O projeto destacado publicamente é **Criando Testes Automatizados de UI em Android com Kotlin e Espresso**. Portanto, este ZIP é uma coleção de exercícios **originais** relacionados aos temas anunciados, não a reprodução fiel, completa ou validada do conteúdo restrito da plataforma.
+Preservamos os 37 arquivos originais e acrescentamos exercícios, matrizes, casos de teste e exemplos executáveis. Não houve execução de builds, instalação de dependências nem validação de ambiente Android/iOS nesta atualização. Para fechar lacunas exatas, é necessária a lista de atividades exibida na conta DIO.
