@@ -1,0 +1,4 @@
+import {bootstrapApplication} from '@angular/platform-browser';import {Component} from '@angular/core';import {NgIf,NgFor} from '@angular/common';import {FormsModule} from '@angular/forms';
+@Component({selector:'app-root',standalone:true,imports:[FormsModule,NgIf,NgFor],template:`<main><h1>Cadastro QA</h1><form (ngSubmit)="salvar()"><label>Nome <input data-cy="nome" name="nome" [(ngModel)]="nome" required></label><button data-cy="salvar" type="submit">Cadastrar</button></form><p data-cy="erro" *ngIf="erro">{{erro}}</p><ul><li *ngFor="let item of nomes">{{item}}</li></ul></main>`})
+export class AppComponent {nome='';erro='';nomes:string[]=[];salvar(){if(!this.nome.trim()){this.erro='Nome obrigatório';return;}this.nomes.push(this.nome.trim());this.nome='';this.erro='';}}
+bootstrapApplication(AppComponent).catch(console.error);

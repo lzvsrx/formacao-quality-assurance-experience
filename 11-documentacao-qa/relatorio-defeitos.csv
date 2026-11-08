@@ -1,0 +1,3 @@
+ID,Severidade,Prioridade,Titulo,Passos,Resultado esperado,Resultado observado,Estado
+BUG-001,Alta,Alta,Checkout aceita carrinho vazio,Entrar no carrinho e finalizar,Exibir bloqueio,Pedido finalizado indevidamente,Exemplo fictício
+BUG-002,Média,Média,Erro de foco no formulário,Enviar formulário com campo vazio,Foco no campo inválido,Foco permanece no botão,Exemplo fictício

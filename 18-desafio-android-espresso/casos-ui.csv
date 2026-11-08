@@ -1,0 +1,4 @@
+ID;Cenário;Esperado;Execução
+AND-001;Abrir atividade;Campos visíveis;Não executado
+AND-002;Preencher dados válidos;Mensagem de sucesso;Não executado
+AND-003;Preencher dados inválidos;Feedback de erro;Não executado

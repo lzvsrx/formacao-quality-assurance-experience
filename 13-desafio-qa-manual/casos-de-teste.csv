@@ -1,0 +1,8 @@
+ID;Historia;Cenario;Precondicao;Passos;Resultado esperado;Status
+CT-001;US01;Login válido;Usuário cadastrado;Informar credenciais válidas e entrar;Área autenticada;Não executado
+CT-002;US01;Senha incorreta;Usuário cadastrado;Informar senha inválida e entrar;Erro sem autenticar;Não executado
+CT-003;US01;Campos vazios;Tela de login;Enviar formulário vazio;Validação obrigatória;Não executado
+CT-004;US02;Adicionar produto;Catálogo com estoque;Adicionar produto ao carrinho;Subtotal correto;Não executado
+CT-005;US02;Remover produto;Carrinho com item;Remover item;Total recalculado;Não executado
+CT-006;US03;Checkout válido;Carrinho com item;Preencher endereço e confirmar;Confirmação do pedido;Não executado
+CT-007;US03;Checkout vazio;Carrinho vazio;Tentar finalizar;Operação bloqueada;Não executado
