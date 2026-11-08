@@ -1,0 +1,7 @@
+id,requisito,cenario,entrada,esperado,prioridade
+CT001,REQ01,Cadastro válido,email válido e senha forte,201 Created,Alta
+CT002,REQ01,Email inválido,email sem arroba,400 Bad Request,Alta
+CT003,REQ01,Email duplicado,email existente,409 Conflict,Alta
+CT004,REQ02,Login válido,credenciais corretas,200 OK,Alta
+CT005,REQ02,Senha incorreta,senha incorreta,401 Unauthorized,Alta
+CT006,REQ03,Consulta sem autenticação,token ausente,401 Unauthorized,Alta
